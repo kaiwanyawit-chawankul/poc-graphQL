@@ -1,0 +1,6 @@
+@Job.GraphQL.Graph_HostAddress = http://localhost:5290
+
+GET {{Job.GraphQL.Graph_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

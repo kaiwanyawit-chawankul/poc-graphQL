@@ -1,0 +1,41 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# Build results
+*.dll
+*.exe
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Others
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.resharper
+.idea/
+*.swp
+*.tmp
