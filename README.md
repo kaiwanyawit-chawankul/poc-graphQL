@@ -68,4 +68,10 @@ http://localhost:5290/graphql/
     email
   }
 }
+
+{
+    ordersByUserId(userId: 10){
+        id
+    }
+}
 ```
