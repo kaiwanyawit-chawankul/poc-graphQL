@@ -59,3 +59,13 @@ http://localhost:5290/graphql/
   }
 }
 ```
+
+```
+{
+  user(id: 50) {
+    id
+    name
+    email
+  }
+}
+```

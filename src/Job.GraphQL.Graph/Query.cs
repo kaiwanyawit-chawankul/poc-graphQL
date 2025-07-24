@@ -9,4 +9,9 @@ public class Query
                 Name = "Jon Skeet"
             }
         };
+
+    public async Task<User> GetUser(int id, [Service] IUserApiClient userApiClient)
+    {
+        return await userApiClient.GetUserByIdAsync(id);
+    }
 }
